@@ -1,0 +1,13 @@
+{
+  "name": "smart-segregation-system",
+  "version": "1.0.0",
+  "description": "AI-Powered Smart Waste Segregation System",
+  "scripts": {
+    "build": "javac -cp \".;mysql-connector-j-8.0.33.jar\" SmartSegServer.java",
+    "start": "java -cp \".;mysql-connector-j-8.0.33.jar\" SmartSegServer",
+    "dev":   "start.bat",
+    "open":  "start http://localhost:3000/login.html"
+  },
+  "author": "dineep657",
+  "license": "MIT"
+}
